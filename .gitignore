@@ -1,0 +1,51 @@
+# Dependencies
+.pnpm-store
+node_modules
+package-lock.json
+
+# Build directories
+dist
+
+# Logs, caches and temporary files
+*.log*
+.cache
+.eslintcache
+.temp
+.tmp
+
+# Test coverage
+coverage
+
+# Intellij
+.idea
+*.iml
+
+# Visual Studio Code
+.vscode/*
+!.vscode/extensions.json
+!.vscode/launch.json
+!.vscode/settings.json
+!.vscode/tasks.json
+
+# Environment variables
+.env
+.env.*
+!.env.example
+
+# OSX
+.AppleDB
+.AppleDesktop
+.AppleDouble
+.apdisk
+.com.apple.timemachine.donotpresent
+.DocumentRevisions-V100
+.DS_Store
+.fseventsd
+.LSOverride
+.Spotlight-V100
+.TemporaryItems
+.Trashes
+.VolumeIcon.icns
+Icon
+Network Trash Folder
+Temporary Items

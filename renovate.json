@@ -1,0 +1,17 @@
+{
+  "extends": [
+    "config:best-practices",
+    "group:allNonMajor",
+    ":semanticCommitTypeAll(chore)",
+    ":widenPeerDependencies",
+    ":approveMajorUpdates"
+  ],
+  "meteor": {
+    "enabled": false
+  },
+  "rangeStrategy": "bump",
+  "npm": {
+    "commitMessageTopic": "{{prettyDepType}} {{depName}}"
+  },
+  "ignoreDeps": ["node"]
+}
